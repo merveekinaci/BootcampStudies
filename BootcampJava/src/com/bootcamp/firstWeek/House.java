@@ -5,8 +5,7 @@ public class House {
   private String color;
   private int roomCount;
 
-  public House() {
-  }
+  public House() { }
 
   public House(int roomCount){
     this.roomCount = roomCount;
