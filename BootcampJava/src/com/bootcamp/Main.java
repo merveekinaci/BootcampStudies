@@ -1,5 +1,7 @@
 package com.bootcamp;
 
+import com.bootcamp.fourthWeek.GradeAvarage;
+
 public class Main {
 
   public static void main(String[] args) {
@@ -38,7 +40,8 @@ public class Main {
      ***/
     /*
     GradeAvarage ga = new GradeAvarage();
-    ga.dersNotOrtalamasıBulma();
+    double result = ga.dersNotOrtalamasıBulma();
+    System.out.println("Sonuc :" +result);
     */
 
 
