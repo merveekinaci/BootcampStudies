@@ -4,7 +4,6 @@ public class School {
 
   private String className;
   private int deskNumber;
-  
 
   public School(String classname,int desknumber) {
     this.className = classname;
