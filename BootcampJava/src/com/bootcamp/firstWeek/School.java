@@ -19,3 +19,4 @@ public class School {
     return deskNumber*2;
   }
 }
+
