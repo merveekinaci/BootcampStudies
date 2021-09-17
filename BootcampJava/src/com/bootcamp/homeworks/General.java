@@ -3,35 +3,33 @@ package com.bootcamp.homeworks;
 public class General {
     public static void main(String[] args) {
             int[] dizi={10,25,40,60,36};
-            int i;
-
 
             int enbuyuk = dizi[0];
             int ikinci = dizi[0];
-            int ciftsayilar = dizi[0];
-            int teksayilar = dizi[0];
-            for(i=0;i<dizi.length;i++){
-                if(dizi[i]>enbuyuk)
-                {
-                    ikinci=enbuyuk;
-                    enbuyuk=dizi[i];
-                }
-                else if(dizi[i]>ikinci){
-                    ikinci = dizi[i];
-            }
-               else if(dizi[i] % 2 == 0) {
+            for (int i=0;i<dizi.length;i++){
 
-                } else if (dizi[i]%2!=0);
+                if(dizi[i] % 2 == 0) {
+                     System.out.println("Dizideki çift sayılar:" + dizi[i]);
+
+                } else{
+                     System.out.println("Dizideki tek sayılar:" + dizi[i] );
+                }
+
+                if (dizi[i] > enbuyuk) {
+                    ikinci = enbuyuk;
+                    enbuyuk = dizi[i];
+                } else if (dizi[i] > ikinci) {
+                    ikinci = dizi[i];
+                }
         }
 
         System.out.println("Dizideki en büyük değer: " + enbuyuk);
         System.out.println("Dizideki en büyük ikinci değer: " + ikinci);
-        System.out.println("Dizideki çift sayılar:" + ciftsayilar );
-        System.out.println("Dizideki tek sayılar:" + teksayilar );
-    }
+
 
     }
 
+    }
 
 
 
